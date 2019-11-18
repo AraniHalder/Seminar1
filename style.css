@@ -1,0 +1,304 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://fonts.googleapis.com/css?family=Nunito:200&display=swap');
+
+body{
+	background-color: black;
+	overflow: hidden;
+	cursor: crosshair;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+#v1{
+	margin-left:15vw;
+	border-left: 1px solid white;
+	height: 100vh;
+	position: absolute;
+	opacity: 30%;
+	z-index: 989;
+}
+
+#v2{
+	margin-left:14.03vw;
+	border-left: 1px solid white;
+	height: 100vh;
+
+}
+
+#v12{
+	margin-top: 86.6vh;
+	margin-left:15vw;
+	border-left: 1px solid white;
+	height: 7.5vh;
+	position: absolute;
+	z-index: 988;
+}
+
+#v22{
+	margin-top: 0vh;
+	margin-left:14.03vw;
+	border-left: 1px solid white;
+	height: 7.5vh;
+
+}
+
+#vtext1, #vtext2, #vtext3, #vtext4, #vtext5{
+	margin-left: 1vw;
+	margin-top: 1.5vh;
+	font-family: 'Roboto';
+	font-size: 2.3vh;
+	color: white;
+	position: absolute;
+	opacity: 100%;
+}
+
+
+
+#h1{
+	margin-top:13.5vh;
+	border-top: 1px solid white;
+	width: 100vw;
+	position: absolute;
+	opacity: 30%;
+	z-index: 987;
+}
+
+#h2{
+	margin-left: 0;
+	margin-top:14.45vh;
+	border-top: 1px solid white;
+	width: 100vw;
+}
+
+
+#h12{
+	margin-left: 7.5vw;
+	margin-top:28.1vh;
+	border-top: 1px solid white;
+	width: 7.5vw;
+	position: absolute;
+	z-index: 986;
+}
+
+#h22{
+	margin-top:16.9vh;
+	border-top: 1px solid white;
+	width: 7.5vw;
+}
+
+#htext1, #htext2, #htext3, #htext5, #htext6{
+	text-align: right;
+	margin-right: 1vw;
+	margin-top: -5vh;
+	font-family: 'Roboto';
+	font-size: 2.3vh;
+	color: white;
+	opacity: 100%;
+}
+
+#htext4{
+	text-align: right;
+	margin-right: 1vw;
+	margin-top: -5vh;
+	font-family: 'Roboto';
+	font-size: 2.3vh;
+	color: white;
+	opacity: 0%;
+}
+
+#sidetext1{
+	left: 87vw;
+	margin-top: -36vh;
+	font-family: 'Roboto';
+	font-size: 2.3vh;
+	color: white;
+	transform: rotate(90deg);
+	position: absolute;
+	z-index: 999;
+}
+
+#sbox{
+	left: 91vw;
+	margin-top: -50vh;
+	background-color: black;
+	position: absolute;
+	width: 4vw;
+	height: 33vh;
+	z-index: 999;
+}
+
+
+#sidetext3{
+	margin-left: 3.8vw;
+	margin-top: -33.5vh;
+	font-family: 'Roboto';
+	font-size: 2.3vh;
+	color: white;
+	position: absolute;
+	opacity: 30%;
+	text-align: right;
+
+}
+
+#sidetext4{
+	margin-left:79.2vw;
+	margin-top: 16.3vh;
+	font-family: 'Roboto';
+	font-size: 2.3vh;
+	color: white;
+	position: absolute;
+	opacity: 30%;
+}
+
+#bigbox{
+	margin-left:15vw;
+	margin-top: -86.5vh;
+	height:72.8vh;
+	width: 70.5vw;
+	border: 1px solid white;
+	position: absolute;
+	z-index: 2;
+}
+
+		#bg1, #bg2, #bg3, #bg4, #bg5, #bg6, #bg7, #bg8, #bg9, #bg10, #bg11, #bg12{
+			position: absolute;
+			margin-top: 0vh;
+			margin-left: 0vw;
+			height: 72.8vh;
+			width: 70.5vw;
+			object-fit: fill;
+			z-index: 2;
+			opacity: 0;
+		}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12{
+	color: white;
+	font-family: 'Roboto';
+	text-align: center;
+	display: table;
+	font-size: 2.3vh;
+	font-weight: lighter;
+	opacity: 1;
+	height: 14.7vh;
+	width: 14.2vw;
+}
+
+#box1{
+	left: 15vw;
+	top: 71.9vh;
+	position: absolute;
+	background-color: none;
+	z-index: 999;
+}
+
+#box2{
+	left: 29.2vw;
+	top: 71.9vh;
+	position: absolute;
+	background-color: none;
+	z-index: 999;
+}
+
+#box3{
+	left: 57.4vw;
+	top: 71.9vh;
+	position: absolute;
+	background-color: none;
+	z-index: 999;
+}
+
+#box4{
+	left: 15vw;
+	top: 57.2vh;
+	position: absolute;
+	background-color: none;
+	z-index: 999;
+}
+
+#box5{
+	left: 29.2vw;
+	top: 57.2vh;
+	position: absolute;
+	background-color: none;
+	z-index: 999;
+}
+
+#box6{
+	left: 57.4vw;
+	top: 57.2vh;
+	position: absolute;
+	background-color: none;
+	z-index: 999;
+}
+
+#box7{
+	left: 71.45vw;
+	top: 71.9vh;
+	position: absolute;
+	background-color: none;
+	z-index: 999;
+}
+
+#box8{
+	left: 29.2vw;
+	top: 42.6vh;
+	position: absolute;
+	background-color: none;
+	z-index: 999;
+}
+
+#box9{
+	left: 71.45vw;
+	top: 57.2vh;
+	position: absolute;
+	background-color: none;
+	z-index: 999;
+}
+
+#box10{
+	left: 29.2vw;
+	top: 28.2vh;
+	position: absolute;
+	background-color: none;
+	z-index: 999;
+}
+
+#box11{
+	left: 43.3vw;
+	top: 28.2vh;
+	position: absolute;
+	background-color: none;
+	z-index: 999;
+}
+
+#box12{
+	left: 29.2vw;
+	top: 13.7vh;
+	position: absolute;
+	background-color: none;
+	z-index: 999;
+}
+
+#vertcenter{
+	display: table-cell; 
+	vertical-align: middle;
+}
+
+#resetbox{
+	left: 86.6vw;
+	top: 8vh;
+	height: 3vh;
+	width: 3vh;
+	position: absolute;
+	z-index: 999;
+	opacity: 1;
+	color: white;
+	font-family:'Nunito', sans-serif;
+	font-size: 4vh;
+	font-weight: lighter;
+	opacity: 0;
+}
